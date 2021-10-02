@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+.text {
+  color: #ebb774;
+}
+
+.box {
+  background: #111111;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: -1px;
+}
+
+h3 {
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.btn-green {
+  padding: 10px;
+  font-size: 16px;
+  background: white;
+}
+
+.btn-green {
+  background: green;
+}
+
+.container-cras {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+.container-cras ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-cras li {
+  padding: 30px;
+}
+
+.container-cras li:hover {
+  background: blue;
+  color: white;
+}
+
+.alertbox-green {
+  color: #004d00;
+  background: #ccffcc;
+  padding: 30px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.alertbox-green span:hover {
+  color: black;
+}
+
+.closebtn-green {
+  color: #004d00;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  transition: 0.3s;
+  line-height: 20px;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.alertbox-blue {
+  color: #000099;
+  background: #b3b3ff;
+  padding: 30px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.alertbox-blue span:hover {
+  color: black;
+}
+
+.closebtn-blue {
+  color: #000099;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  transition: 0.3s;
+  line-height: 20px;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.alertbox-beige {
+  color: #808000;
+  background: #ffffcc;
+  padding: 30px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.alertbox-beige span:hover {
+  color: black;
+}
+
+.closebtn-beige {
+  color: #808000;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+  transition: 0.3s;
+  line-height: 20px;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1300px;
+}
+
+.col-6, .col-4, .col-3 {
+  width: 200px;
+  padding: 20px;
+  background: #c4c4d4;
+  border: 1px solid #9e9efa;
+  border-radius: 1px;
+  margin-top: 15px;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-4 {
+  width: 33.33%;
+}
+
+.col-3 {
+  width: 25%;
+}

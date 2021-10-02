@@ -1,0 +1,297 @@
+span, i, div, input, textarea {
+    box-sizing: border-box;
+}
+
+
+
+@font-face{
+    font-family: '이쁜폰트';
+    font-weight: 400;
+    src: url(../font/NanumSquareR.woff);
+}
+
+body {
+    margin: 0px;
+    font-family: '이쁜폰트';
+}
+
+p,h1 {
+    transform: rotate(0.03deg);
+}
+
+.main-background {
+    width: 100%;
+    min-width: 450px;
+    
+    height: 600px;
+    padding: 1px;
+    background-image: linear-gradient(to bottom, red,orange,green,blue,indigo,violet);    
+    
+}
+
+.iphone {
+    width: 40%;
+    
+    margin: auto;
+    margin-bottom: 0px;
+    max-width: 380px;
+    min-width: 240px;
+   
+   
+
+    
+}
+.iphone img {
+    width: 100%
+}
+
+.title {
+    width: 60%;
+    padding: 30px;
+    color: white;
+    margin: auto;
+    position: relative;
+    
+
+}
+
+.title h1 {
+    letter-spacing: -1px;
+}
+
+button {
+    background-color: #000d1a;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+        
+}
+
+
+button:hover {
+    font-size: 110%;
+    background-color: chartreuse;
+    color: coral;
+    transition: 0.8s;
+   
+}
+
+
+
+
+
+.portfolio {
+    text-align: center;
+    padding: 80px;
+}
+
+.services-background {
+    background-color: cornflowerblue;
+    width: 100%;
+    min-width: 450px;
+    height: 100%;
+    padding: 30px;
+    height: auto;
+    
+    
+}
+
+.services-head {
+    text-align: center;
+    
+}
+.services-head h6 {
+    color: yellow;
+}
+.services-head h3 {
+    color: white;
+}
+
+.services-container {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    max-width: 800px;
+    justify-content: center;
+    
+}
+.services-container i {
+    background-color: white;
+    color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding-top: 25px;
+    
+}
+
+.services-items {
+    width: 20%;
+    
+    min-width: 200px;
+    
+    padding: 20px;
+    
+}
+.services-items p {
+    font-size: 10px;
+}
+
+.portfolio-items {
+    width: 45%;
+    min-width: 450px;
+    height: 460px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1px;
+    position: relative;
+    
+}
+
+.s {
+    padding: 0px;
+    background-image: url(../img/portfolio-1.jpg);
+}
+.portfolio-text h6 {
+    color: white;
+    margin-top: 250px;
+    padding-left: 60px;
+        
+}
+.portfolio-text p {
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 10px;
+        
+}
+
+.portfolio-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+.portfolio-head {
+    text-align: center;
+}
+.portfolio-head h6 {
+    color: darkorange;
+}
+
+
+.portfolio-container {
+    margin: 100px;
+}
+
+
+.i {
+    padding: 0px;
+    background-image: url(../img/portfolio-2.jpg);
+}
+
+.st {
+    padding: 0px;
+    background-image: url(../img/portfolio-3.jpg);
+}
+
+.w {
+    padding: 0px;
+    background-image: url(../img/portfolio-4.jpg);
+}
+
+
+
+
+
+
+.white-box {
+    
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    border: 0px ridge red;
+    transition: all 1s;
+   position:absolute;
+
+}
+.white-box:hover {
+    border: 30px ridge green;
+}
+
+.container {
+    max-width: 1000px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 150px;
+    
+}
+
+.porfolio-text {
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding: 40px;
+    margin-top: 40%;
+}
+
+.footer {
+    width: 380px;
+    height: 116px;
+    
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer div {
+    width: 20%;
+    text-align: center;
+    color: white;
+    
+    border-radius: 50px;
+    background-color: dodgerblue;
+    padding-top: 21px;
+    margin: 20px;
+    
+    
+    
+    
+}
+
+.copyright {
+    text-align: center;
+    color: dodgerblue;
+    margin: 30;
+}
+
+progress::-webkit-progress-value {
+    background-color: yellow;
+}
